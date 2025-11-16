@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+*,
+::before
+::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  height: 310px;
+  background-image: url(../images/haikei.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.title h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 400px; 
+  font-family: "Gamja Flower", sans-serif;
+  font-size: 80px;
+}
+
+.ideal{
+  text-align: center;
+}
+
+.ideal h1{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.ideal h2{
+  margin-bottom: 100px;
+  margin: 2em auto; 
+  padding: 1em 1.5em;
+  width: 90%; /*幅の調節*/
+  color: #777777; /* 文字色 */
+  background-color: #fff; /* 背景色 */
+  border: 4px solid #f6bfbc; /*線の太さ・色*/
+  border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+}
+
+
+.ideal p{
+  font-size: 20px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.ideal img{
+  width: 400px;
+}
